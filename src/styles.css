@@ -1,0 +1,84 @@
+.footer1{
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    /*position: fixed;*/
+    left: 0px;
+    right: 5px;
+    bottom: 0px;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    /*@media only screen and (max-width: 600px) {
+      display: none;
+    };*/
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(21, 101, 192);
+}
+.image {
+    margin-left: 20px;
+}
+.cardee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 3%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(21, 101, 192);
+    margin: 0px 12px;
+    text-align: center;
+    height: 25vmin;
+    /*@media only screen and (max-width: 600px) {
+      flex-direction: column-reverse;
+      text-align: center;
+      width: 100%;
+      height: initial;
+      '&:nth-of-type(1)': {
+        margin-bottom: 12px
+      };
+    };*/
+}
+.infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*@media only screen and (max-width: 600px) {
+      flex-direction: column;
+    };*/
+}
+.logoContaineree {
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*@media only screen and (max-width: 600px) {
+      flex-direction: column-reverse;
+      text-align: center;
+    };*/
+}
+.alanLogoee {
+    /*height: 55vmin;*/
+    height: 35%;
+    width: 35%;
+    border-radius: 5%;
+    padding: 0 5%;
+    margin: 3% 0;
+    /*@media only screen and (max-width: 600px) {
+      height: 35vmin;
+    };*/
+}

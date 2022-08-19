@@ -1,0 +1,42 @@
+.medias{
+    height: 250px;
+}
+
+/*.border {
+    border: solid;
+}
+
+.fullHeightCard {
+    height: 100%;
+}*/
+
+.carde {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 10px solid white;
+}
+
+.activeCarde {
+    border-bottom: 10px solid #22289a;
+}
+
+.grid {
+    display: flex;
+}
+
+.detailse {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.titlee {
+    padding: 0 16px;
+}
+
+.cardActionse {
+    padding: 0 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}

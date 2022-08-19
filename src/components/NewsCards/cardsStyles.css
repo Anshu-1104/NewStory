@@ -1,0 +1,23 @@
+.containeri {
+    padding: 0 2.5%;
+     width: 100%;
+      margin: 0;
+}
+
+.cardi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    padding: 10%;
+    border-radius: 10px;
+    color: white;
+}
+
+.infoCardi {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
