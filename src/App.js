@@ -26,14 +26,16 @@ const App = () => {
           setActiveArticle((prevActiveArticle) => prevActiveArticle + 1);
         } else if (command === 'open') {
           const parsedNumber = number.length > 2 ? wordsToNumbers((number), { fuzzy: true }) : number;
-          const article = savedArticles[parsedNumber - 1];
+          //const article = savedArticles[parsedNumber - 1];
           console.log(parsedNumber);
-          if (parsedNumber > 20) {
+          window.open(savedArticles[parsedNumber - 1].url, '_blank');
+          alanBtn().playText('Opening...');
+          /*if (parsedNumber > 20) {
             alanBtn().playText('Please try that again...');
           } else{
             window.open(savedArticles[parsedNumber - 1].url, '_blank');
             alanBtn().playText('Opening...');
-          }
+          }*/
         }
       }
     })
